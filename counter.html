@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<style>
+    #dis{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 70px;
+        /* color: color-mix(in srgb, rgb(239, 9, 9), blue 50, red 50); */
+        
+    }
+    #bts{
+        text-align: center;
+    }
+    #bx{
+        border: 5px solid red;
+        border-radius: 20px;
+        display: block;
+        padding: 50px;
+        margin-top: 200px;
+        width: 40%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #st{
+        cursor: pointer;
+        background-color:green;
+        font-size: 40px;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 20%;
+        height: 20%;
+        transition: 0.04s ;
+    }
+    #st:hover{
+        background-color:rgb(6, 244, 14);
+        color: blue;
+        font-weight: bolder;
+        box-shadow: rgba(255, 255, 255, 0.941) 0px 5px, rgba(209, 240, 3, 0.359) 0px 15px, rgb(255, 255, 255) 0px 20px;
+    }
+    #stp{
+        cursor: pointer;
+        background-color:rgb(127, 5, 5);
+        font-size: 40px;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 20%;
+        height: 20%;
+        transition: 0.04s ;
+    }
+    #stp:hover{
+        background-color:rgb(244, 6, 42);
+        color: blue;
+        font-weight: bolder;
+        box-shadow: rgba(255, 255, 255, 0.941) 0px 5px, rgba(249, 1, 71, 0.359) 0px 15px, rgb(255, 255, 255) 0px 20px;
+    }
+    #inc{
+        cursor: pointer;
+        background-color:green;
+        font-size: 40px;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 20%;
+        height: 20%;
+        transition: 0.04s ;
+    }
+    #inc:hover{
+        background-color:rgb(6, 244, 14);
+        color: blue;
+        font-weight: bolder;
+        box-shadow: rgba(255, 255, 255, 0.941) 0px 5px, rgba(209, 240, 3, 0.359) 0px 15px, rgb(255, 255, 255) 0px 20px;
+    }
+    #dec{
+        cursor: pointer;
+        background-color:rgb(127, 5, 5);
+        font-size: 40px;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 20%;
+        height: 20%;
+        transition: 0.04s ;
+    }
+    #dec:hover{
+        background-color:rgb(244, 6, 42);
+        color: blue;
+        font-weight: bolder;
+        box-shadow: rgba(255, 255, 255, 0.941) 0px 5px, rgba(249, 1, 71, 0.359) 0px 15px, rgb(255, 255, 255) 0px 20px;
+    }
+
+</style>
+<body>
+    <div id="bx">
+        <h1 id="dis">0</h1>
+        <div id="bts">
+            <button id="st">Start</button>
+            <button id="stp">Stop</button>
+            <button id="inc">+</button>
+            <button id="dec">-</button>
+        </div>
+    </div>
+</body>
+<script src="./script_counter.js"></script>
+</html>
